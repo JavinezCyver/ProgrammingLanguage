@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #59555b;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    text-align: center;
+    
+
+}
+
+#typingArea {
+    width: 95%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button {
+    background: linear-gradient(135deg, #007bff, #00d4ff); /* Gradient Blue */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #00aaff); /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarges */
+}
+button:active {
+    transform: scale(0.95); /* Click effect */
+}
